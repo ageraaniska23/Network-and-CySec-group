@@ -10,6 +10,7 @@ import Crousel from './components/Crousel';
 import AdminAccessModal from './components/AdminAccessModal';
 import PublikMahasiswa from './components/PublicMahasiswa'
 import AddMahasiswa from './components/AddMahasiswa';
+import AddBlog1 from './components/AddBlog';
 
 const { Content } = Layout;
 
@@ -38,6 +39,7 @@ const AppContent = () => {
             <Route path="/Mahasiswa" element={<PublikMahasiswa/>} />
             <Route path="/admin/dashboard" element={<PageAdmin />} />
             <Route path="/admin/addmahasiswa" element={<AddMahasiswa />} />
+            <Route path="/admin/addblog" element={<AddBlog1 />} />
             <Route path='/home' element={<Crousel />} />
           </Routes>
         </Content>

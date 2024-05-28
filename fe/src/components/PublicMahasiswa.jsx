@@ -1,16 +1,14 @@
 import React from 'react'
-import { Layout } from 'antd';
 
-const { Content } = Layout;
+import TabelMhs from './TabelMhs';
+
+
 
 const PublicMahasiswa = () => {
   return (
     <div>
-      <Content className="px-0 py-0">
-      <div className="p-6 min-h-screen bg-white rounded-lg shadow">
-                aaa
-            </div>
-      </Content>
+      <h1 className='text-3xl text-center mb-12 mt-4 font-mono'>Daftar Mahasiswa</h1>
+      <TabelMhs />
     </div>
   )
 }

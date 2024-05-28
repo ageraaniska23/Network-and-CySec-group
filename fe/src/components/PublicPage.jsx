@@ -1,6 +1,7 @@
-import React from 'react';
-import { Calendar, Layout } from 'antd';
+import React, { useState, useEffect } from 'react';
+import { Layout } from 'antd';
 import Crousel from './Crousel';
+
 import BlogList from './BlogList';
 const { Content } = Layout;
 
@@ -15,13 +16,8 @@ const PublicPage = () => {
                         <span style={{ color: 'red' }}>Sc</span>
                     </h1>
                     <Crousel />
-
                     <div>
-                        <BlogList/>
-                    </div>
-
-                    <div>
-                        <Calendar/>
+                        <BlogList />
                     </div>
                 </div>
             </Content>

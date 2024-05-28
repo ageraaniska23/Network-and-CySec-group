@@ -8,7 +8,6 @@ import AddMhs from './AddMhs';
 const PageAdmin = () => {
     return (
         <div className=''>
-            
                 <div className="flex flex-col lg:flex-row lg:flex-wrap -mx-4">
                     <div className="w-full lg:w-3/4 px-4 mb-4 lg:mb-0">
                         <h1 className='text-center text-3xl font-bold mb-4'>Data Mahasiswa</h1>
